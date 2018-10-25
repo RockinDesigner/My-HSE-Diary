@@ -1,0 +1,78 @@
+
+h1, h2 {
+  font-family: 'Montserrat', sans-serif;
+}
+p {
+  font-family: 'Ubuntu', sans-serif;
+}
+a {
+  text-decoration: none;
+}
+.full-screen-page {
+  display: flex;
+
+  height: 100vh;
+  padding: 0 0 0 4em;
+
+  color: #fff;
+  background: linear-gradient(301.44deg, #00D1FF -0.83%, #0233DA 65.19%, #0233DA 96.04%);
+}
+.fs-left {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  align-content: center;
+
+}
+.fs-left h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 3em;
+  font-weight: 300;
+}
+.fs-left h1 {
+  padding: 0 0 0.3em 0;
+
+  text-transform: uppercase;
+
+  font-family: 'Montserrat', sans-serif;
+  font-size: 9em;
+  font-weight: bold;
+}
+.fs-left p {
+  padding: 0 0 1.3em 0;
+
+  font-family: 'Roboto', sans-serif;
+  font-size: 24px;
+  font-weight: 300;
+
+}
+.fs-left a {
+  width: 220px;
+  padding: 15px 0 15px 0;
+
+  text-align: center;
+  text-transform: uppercase;
+
+  color: inherit;
+  border: 1px solid #FF0851;
+  border-radius: 100px;
+  background: #FF0851;
+  box-shadow: 0px 2px 17px rgba(0, 0, 0, 0.3);
+
+  font-family: 'Montserrat';
+  font-weight: 500;
+}
+.fs-left a:hover {
+  transition: ease .8s;
+
+  border: 1px solid #fff;
+  background: transparent;
+}
+.fs-right {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+
+  width: 30%;
+}
