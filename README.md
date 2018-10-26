@@ -1,3 +1,2 @@
 # My-HSE-Diary
-good design
-don't touch my fuckin images!
+Don't resize to mobile devices!
